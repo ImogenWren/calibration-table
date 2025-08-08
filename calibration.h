@@ -2,7 +2,8 @@
 
       Multi point generic calibration using key->value pair offset tables
 
-
+Author: Imogen Wren
+Date:   08/08/2025
 
 */
 
