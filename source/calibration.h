@@ -18,9 +18,11 @@ Date:   08/08/2025
 #include <wProgram.h>
 #endif
 
+
 #include <debugging.h>
 
-#define DEBUG_LEVEL ERROR
+
+//#define DEBUG_LEVEL ERROR
 
 // This calibration table should be filled in with the voltage offset measured at the sensing pin of the microcontroller.
 // This list is arbritary length, limited only by microcontroller memory.
@@ -107,14 +109,6 @@ private:
 #define UPPER_KEY_ENTERED 0b00000010
 #define BOTH_KEYS_ENTERED 0b00000011
 };
-
-
-
-
-
-
-
-
 
 
 
